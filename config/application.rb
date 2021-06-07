@@ -10,7 +10,7 @@ module ChatApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
-    config.il8n.defeat_locate = :ja
+    config.i18n.default_locale = :ja
     config.time_zone = 'Tokyo'
     config.generators do |g|
       g.stylesheets false
